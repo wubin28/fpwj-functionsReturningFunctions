@@ -1,0 +1,6 @@
+ProfitTest.java:35: error: cannot find symbol
+        assertEquals(436.4, totalProfits, 0.001);
+                            ^
+  symbol:   variable totalProfits
+  location: class ProfitTest
+1 error
