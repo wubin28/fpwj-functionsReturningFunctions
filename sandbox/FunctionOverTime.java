@@ -8,6 +8,10 @@ public interface FunctionOverTime {
        return (time) -> values[time - 1];
     }
 
+    static FunctionOverTime monthByMonthInt(final int[] values) {
+       return (time) -> values[time - 1];
+    }
+
     static FunctionOverTime constant(final double constantValue) {
         return polynomial(new double[] { constantValue });
     }
