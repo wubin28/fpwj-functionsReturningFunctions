@@ -1,6 +1,6 @@
-ProfitTest.java:35: error: cannot find symbol
-        assertEquals(436.4, totalProfits, 0.001);
-                            ^
-  symbol:   variable totalProfits
-  location: class ProfitTest
-1 error
+JUnit version 4.11-SNAPSHOT-20120416-1530
+.
+Time: 0.135
+
+OK (1 test)
+
